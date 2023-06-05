@@ -1,0 +1,165 @@
+.activeBackground {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+}
+
+.orders {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 2;
+    background: var(--white);
+    padding-top: 30px;
+    overflow: scroll;
+
+    &.ordersInactive {
+        width: 0;
+    }
+
+    &.ordersActive {
+        width: 470px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        padding: 0 25px;
+
+        button {
+            background: none;
+            border: none;
+            line-height: 0;
+            cursor: pointer;
+        }
+    }
+
+    .orderWrapper {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 0 25px 20px 25px;
+        margin-top: 25px;
+        border-bottom: 2px solid var(--gray-light);
+
+        .title {
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 27px;
+            letter-spacing: 0.125em;
+        }
+
+        .size {
+            text-transform: uppercase;
+            margin-top: 25px;
+        }
+
+        .priceVolume {
+            margin-top: 10px;
+        }
+
+        .controls {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 45px auto 45px;
+            gap: 20px;
+
+            button {
+                width: 45px;
+                height: 45px;
+                line-height: 0;
+                background: var(--gray-dark);
+                border-radius: 10px;
+                border: none;
+                font-size: 35px;
+                line-height: 0;
+                color: #878787;
+                cursor: pointer;
+                transition: var(--transition);
+
+                &.inactive {
+                    opacity: 0.4;
+                }
+
+                &:disabled {
+                    cursor: auto;
+                }
+
+                &:hover {
+                    background: var(--gray);
+                    color: var(--white);
+
+                    &.inactive {
+                        background: var(--gray-dark);
+                        color: #878787;
+                    }
+                }
+
+                &:active {
+                    background: var(--white);
+                    color: #878787;
+                }
+            }
+
+            .quantity {
+                border: 2px solid #bcbcbc4d;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .remove {
+            margin-top: 20px;
+            color: var(--red);
+            cursor: pointer;
+        }
+    }
+
+    .paymentWrapper {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px 30px 25px;
+
+        .total {
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+        }
+
+        button {
+            background: #589948;
+            border-radius: 10px;
+            border: none;
+            padding: 6px 25px;
+            color: var(--white);
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 27px;
+            cursor: pointer;
+            transition: var(--transition);
+
+            &:hover {
+                background: var(--green);
+            }
+        }
+    }
+
+    .nothing {
+        padding-left: 25px;
+        font-size: 22px;
+    }
+}

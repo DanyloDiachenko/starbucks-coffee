@@ -1,0 +1,61 @@
+.filtersWrapper {
+    position: relative;
+
+    .filters {
+        margin-left: auto;
+        padding: 8px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--gray-light);
+        border-radius: 10px;
+        gap: 22px;
+        border: none;
+        cursor: pointer;
+
+        img {
+            transition: var(--transition);
+
+            &.active {
+                transform: rotate(180deg);
+            }
+        }
+
+        p {
+            color: var(--black);
+            font-weight: 600;
+        }
+    }
+
+    .filtersSelect {
+        background: var(--white);
+        z-index: 1;
+        max-height: 0;
+        transition: max-height var(--transition) ease-out;
+        overflow: hidden;
+        width: 240px;
+        position: absolute;
+        right: 0;
+        top: 55px;
+        border-radius: 10px;
+        z-index: 1;
+
+        &.active {
+            max-height: 500px;
+            transition: max-height var(--transition) ease-in;
+            box-shadow: 1px 5px 20px 3px rgba(0, 0, 0, 0.25);
+        }
+
+        p {
+            width: auto;
+            padding: 6px 0 6px 12px;
+            cursor: pointer;
+            transition: var(--transition);
+
+            &:hover {
+                background: var(--gray-light);
+                color: var(--black);
+            }
+        }
+    }
+}

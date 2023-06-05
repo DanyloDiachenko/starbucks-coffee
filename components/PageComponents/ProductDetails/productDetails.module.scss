@@ -1,0 +1,182 @@
+.productDetails {
+    margin-top: 25px;
+
+    .rightCol {
+        text-align: end;
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .details {
+        margin-top: 50px;
+        padding: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+        background: var(--gray-light);
+        border-radius: 40px;
+        overflow: hidden;
+
+        .characteristic {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+
+            p {
+                margin-top: 0;
+            }
+        }
+
+        .leftCol {
+            h2 {
+                font-size: 44px;
+                font-weight: 900;
+                color: var(--yellow-dark);
+            }
+
+            .description {
+                margin-top: 30px;
+                margin-bottom: 35px;
+            }
+        }
+
+        .mainCol {
+            position: relative;
+            height: 450px;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0px 10px 28px -3px rgba(118, 111, 89, 0.5);
+
+            .borderFirst {
+                padding: 30px;
+                border: 1px solid rgba(209, 204, 184, 0.5);
+                border-radius: 50%;
+                animation: borderFirstAnimation 4s linear 0s infinite;
+                position: absolute;
+                z-index: 0;
+            }
+
+            .borderSecond {
+                padding: 30px;
+                border: 1px solid rgba(209, 204, 184, 0.5);
+                border-radius: 50%;
+                animation: borderFirstAnimation 4s linear 1.5s infinite;
+                position: absolute;
+                z-index: 0;
+            }
+
+            @keyframes borderFirstAnimation {
+                0% {
+                    width: 300px;
+                    height: 300px;
+                    opacity: 1;
+                }
+
+                100% {
+                    width: 1000px;
+                    height: 1000px;
+                    opacity: 0;
+                }
+            }
+
+            @keyframes borderSecondAnimation {
+                0% {
+                    width: 320px;
+                    height: 320px;
+                    opacity: 1;
+                }
+
+                100% {
+                    width: 1020px;
+                    height: 1020px;
+                    opacity: 0;
+                }
+            }
+
+            .price {
+                text-align: center;
+                margin-top: 10px;
+                color: var(--green);
+                font-size: 28px;
+            }
+
+            .size {
+                font-size: 20px;
+            }
+        }
+
+        .rightCol {
+            .rating {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                font-weight: 700;
+
+                img {
+                    &:first-child {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .sizes {
+                margin-top: 20px;
+                grid-template-columns: repeat(4, 80px);
+                column-gap: 8px;
+                display: flex;
+                gap: 15px;
+
+                .size {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    font-weight: 900;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.1em;
+                    color: var(--white);
+                    text-transform: uppercase;
+                    padding: 6px 0;
+                    border: 2px solid var(--white);
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: var(--transition);
+                    z-index: 1;
+
+                    &.active {
+                        background: var(--white);
+                        color: var(--green-dark);
+                    }
+
+                    &:hover {
+                        background: var(--white);
+                        color: var(--green-dark);
+                    }
+                }
+            }
+
+            .btnWrapper {
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                margin-bottom: 35px;
+
+                .button {
+                    background: var(--green-dark);
+                    color: var(--white);
+
+                    &:hover {
+                        background: var(--green);
+                    }
+                }
+            }
+        }
+    }
+}

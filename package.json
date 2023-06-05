@@ -1,0 +1,27 @@
+{
+    "name": "starbucks-coffee",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "13.4.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-paypal-button-v2": "^2.6.3",
+        "react-redux": "^8.0.5",
+        "redux": "^4.2.1",
+        "sass": "^1.62.1",
+        "sharp": "^0.32.1"
+    },
+    "devDependencies": {
+        "@types/node": "20.0.0",
+        "@types/react": "18.2.5",
+        "@types/react-dom": "18.2.3",
+        "prettier": "2.8.8",
+        "typescript": "5.0.4"
+    }
+}

@@ -1,0 +1,18 @@
+.button {
+    border: none;
+    background: var(--gray-light);
+    border-radius: 30px;
+    color: var(--green-dark);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--transition);
+
+    &:hover {
+        background: var(--white);
+    }
+}

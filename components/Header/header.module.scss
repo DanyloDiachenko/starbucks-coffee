@@ -1,0 +1,94 @@
+.header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logoNavigation {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+
+        .navigation {
+            display: flex;
+            gap: 30px;
+            font-weight: 500;
+            font-size: 22px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+
+            a {
+                transition: var(--transition);
+                text-decoration: none;
+                color: var(--black);
+
+                &:hover {
+                    color: var(--gray);
+                }
+            }
+        }
+    }
+
+    .searchWrapper {
+        max-width: 420px;
+        width: 100%;
+        border-bottom: 2px solid var(--gray);
+        display: flex;
+        align-items: center;
+        padding-bottom: 3px;
+
+        input {
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 0.1em;
+            padding-left: 0;
+            border: none;
+            width: 100%;
+            outline: none;
+            cursor: pointer;
+            background: none;
+
+            &::placeholder {
+                letter-spacing: 0.2em;
+                color: #bcbcbc;
+            }
+        }
+    }
+
+    .basketMenu {
+        display: flex;
+        gap: 45px;
+
+        .basketWrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .length {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 12px;
+                background: var(--red);
+                border-radius: 100px;
+                color: var(--white);
+            }
+
+            .title {
+                font-weight: 500;
+                font-size: 22px;
+                letter-spacing: 0.2em;
+            }
+        }
+
+        .menuButton {
+            background: none;
+            border: none;
+            cursor: pointer;
+            line-height: 0;
+        }
+    }
+}

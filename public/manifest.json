@@ -1,0 +1,17 @@
+{
+    "name": "Starbucks Coffee",
+    "id": "/",
+    "short_name": "Starbucks Coffee",
+    "start_url": "http://localhost:3000",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/logo.webp",
+            "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

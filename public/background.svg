@@ -1,0 +1,144 @@
+<svg width="451" height="340" viewBox="0 0 451 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M86 189L85.9999 265.85" stroke="white" stroke-opacity="0.65" />
+	<path d="M67.875 203.874H104.125" stroke="white" stroke-opacity="0.65" />
+	<line x1="64.25" y1="220.727" x2="109.562" y2="220.727" stroke="white" stroke-opacity="0.65" />
+	<line x1="57" y1="238.081" x2="115" y2="238.081" stroke="white" stroke-opacity="0.65" />
+	<line x1="76.9375" y1="188.5" x2="95.0625" y2="188.5" stroke="white" stroke-opacity="0.65" />
+	<circle cx="388" cy="235" r="4" fill="white" fill-opacity="0.6" />
+	<circle cx="95" cy="34" r="4" fill="white" fill-opacity="0.6" />
+	<circle cx="414" cy="14" r="3.5" stroke="white" stroke-opacity="0.6" />
+	<circle cx="126" cy="203" r="3.5" stroke="white" stroke-opacity="0.6" />
+	<circle cx="422" cy="275" r="4" fill="#D6C989" fill-opacity="0.6" />
+	<circle cx="356.5" cy="164.5" r="3.5" fill="#D6C989" fill-opacity="0.6" />
+	<circle cx="104.5" cy="137.5" r="3.5" fill="#D6C989" fill-opacity="0.6" />
+	<circle cx="50" cy="321" r="4" fill="#D6C989" fill-opacity="0.6" />
+	<circle cx="142" cy="270" r="4" fill="#D6C989" fill-opacity="0.4" />
+	<path d="M391.362 266L391.01 330.68" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="10.7094" y2="-0.5"
+		transform="matrix(0.608551 0.793514 -0.608551 0.793514 384.483 274.97)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="20.4109" y2="-0.5"
+		transform="matrix(0.694292 0.719693 -0.52055 0.853831 377.241 287.245)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="30.8201" y2="-0.5"
+		transform="matrix(0.694292 0.719693 -0.52055 0.853831 370 297.854)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="9.5195" y2="-0.5"
+		transform="matrix(-0.608551 0.793514 -0.608551 -0.793514 396.793 274.97)" stroke="white"
+		stroke-opacity="0.6" />
+	<path d="M405.318 286.94L391 301.712" stroke="white" stroke-opacity="0.6" />
+	<path d="M412 296.304L391.088 319.495" stroke="white" stroke-opacity="0.6" />
+	<line x1="394.621" y1="268.861" x2="388.103" y2="268.861" stroke="white" stroke-opacity="0.6" />
+	<path d="M141.957 65L141.513 130" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="11.8562" y2="-0.5"
+		transform="matrix(0.693656 0.720307 -0.693656 0.720307 133.276 74.0146)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="23.1887" y2="-0.5"
+		transform="matrix(0.771181 0.636616 -0.607873 0.794034 124.138 86.3503)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="35.0144" y2="-0.5"
+		transform="matrix(0.771181 0.636616 -0.607873 0.794034 115 97.0118)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="10.5389" y2="-0.5"
+		transform="matrix(-0.693656 0.720307 -0.693656 -0.720307 148.81 74.0146)" stroke="white"
+		stroke-opacity="0.6" />
+	<path d="M159.568 86.044L141.5 100.889" stroke="white" stroke-opacity="0.6" />
+	<path d="M168 95.4539L141.611 118.76" stroke="white" stroke-opacity="0.6" />
+	<line x1="146.069" y1="67.8722" x2="137.845" y2="67.8722" stroke="white" stroke-opacity="0.6" />
+	<path
+		d="M357 0L358.123 3.45492H361.755L358.816 5.59017L359.939 9.04508L357 6.90983L354.061 9.04508L355.184 5.59017L352.245 3.45492H355.877L357 0Z"
+		fill="white" fill-opacity="0.8" />
+	<path
+		d="M393 33L394.123 36.4549H397.755L394.816 38.5902L395.939 42.0451L393 39.9098L390.061 42.0451L391.184 38.5902L388.245 36.4549H391.877L393 33Z"
+		fill="#D6C989" fill-opacity="0.4" />
+	<path d="M36.6058 51L36.003 136" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="25.171" y1="62.4347" x2="36.3389" y2="73.6026" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="12.7199" y1="78.5283" x2="37.0034" y2="97.8328" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="0.311144" y1="92.4703" x2="36.9788" y2="121.62" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="46.2659" y1="63.1419" x2="36.3389" y2="73.0688" stroke="#D6C989" stroke-opacity="0.6" />
+	<path d="M60.5203 78.5191L35.9854 97.9317" stroke="#D6C989" stroke-opacity="0.6" />
+	<path d="M71.9707 90.8244L36.1356 121.302" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="42.1897" y1="54.6022" x2="31.0219" y2="54.6022" stroke="#D6C989" stroke-opacity="0.6" />
+	<line x1="317.45" y1="216" x2="317.45" y2="279.582" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="25.7379" y2="-0.5"
+		transform="matrix(0.815916 -0.57817 0.392612 0.919704 297 267.407)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="26.6016" y2="-0.5"
+		transform="matrix(0.828898 0.559399 -0.376625 0.926366 316.95 252.526)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="297" y1="266.907" x2="339" y2="266.907" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="20.7403" y2="-0.5"
+		transform="matrix(0.759393 -0.650632 0.458657 0.888614 302.25 245.728)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="20.7402" y2="-0.5"
+		transform="matrix(0.759393 0.650632 -0.458657 0.888614 316.95 232.234)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="302.25" y1="245.228" x2="332.7" y2="245.228" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="13.9827" y2="-0.5"
+		transform="matrix(0.73798 -0.674823 0.435373 0.90025 307.5 226.789)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="13.9827" y2="-0.5"
+		transform="matrix(0.73798 0.674823 -0.435373 0.90025 317.131 217.353)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="307.5" y1="226.289" x2="327.45" y2="226.289" stroke="white" stroke-opacity="0.6" />
+	<line x1="366.694" y1="54" x2="366.694" y2="134.028" stroke="#D6C989" stroke-opacity="0.4" />
+	<line y1="-0.5" x2="69.3423" y2="-0.5"
+		transform="matrix(-0.320071 0.947394 -0.962265 -0.272114 366.194 54)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<path d="M366.816 54L391 120.889" stroke="#D6C989" stroke-opacity="0.4" />
+	<line x1="344" y1="120.389" x2="391" y2="120.389" stroke="#D6C989" stroke-opacity="0.4" />
+	<line y1="-0.5" x2="19.4773" y2="-0.5"
+		transform="matrix(0.871385 0.4906 -0.558121 0.82976 349.222 105.361)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line y1="-0.5" x2="20.0994" y2="-0.5"
+		transform="matrix(0.90937 -0.415988 0.479567 0.877505 367.5 114.917)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line y1="-0.5" x2="14.8932" y2="-0.5"
+		transform="matrix(0.876609 0.481203 -0.548402 0.836215 353.139 93.4167)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line y1="-0.5" x2="14.9528" y2="-0.5"
+		transform="matrix(0.916775 -0.399405 0.497713 0.867342 366.847 100.242)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line y1="-0.5" x2="10.2548" y2="-0.5"
+		transform="matrix(0.90937 0.415988 -0.479567 0.877505 357.056 81.4722)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line y1="-0.5" x2="10.417" y2="-0.5"
+		transform="matrix(0.939969 -0.341259 0.567146 0.823617 366.847 85.535)" stroke="#D6C989"
+		stroke-opacity="0.4" />
+	<line x1="423.5" y1="146" x2="423.5" y2="202" stroke="white" stroke-opacity="0.6" />
+	<path d="M395 192L422.5 195L450 192" stroke="white" stroke-opacity="0.6" />
+	<path d="M399 187L423 190L447 187" stroke="white" stroke-opacity="0.6" />
+	<path d="M402 182L424 185L446 182" stroke="white" stroke-opacity="0.6" />
+	<path d="M403 177L423 180L443 177" stroke="white" stroke-opacity="0.6" />
+	<path d="M405 172L423 175L441 172" stroke="white" stroke-opacity="0.6" />
+	<path d="M408 167L423 170L438 167" stroke="white" stroke-opacity="0.6" />
+	<path d="M411 162L423.5 165L436 162" stroke="white" stroke-opacity="0.6" />
+	<path d="M414 157L424 160L434 157" stroke="white" stroke-opacity="0.6" />
+	<path d="M416 152L423.5 155L431 152" stroke="white" stroke-opacity="0.6" />
+	<path d="M418 147L423 150L428 147" stroke="white" stroke-opacity="0.6" />
+	<path d="M420 143L423.5 146L425.25 144.5L427 143" stroke="white" stroke-opacity="0.6" />
+	<path d="M216.022 290V340" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="10.4488" y2="-0.5"
+		transform="matrix(-0.462385 0.886679 -0.652926 -0.757422 209.609 303.235)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="222.723" y1="303.735" x2="209.609" y2="303.735" stroke="white" stroke-opacity="0.6" />
+	<line x1="228.244" y1="313" x2="204.778" y2="313" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="10.8747" y2="-0.5"
+		transform="matrix(0.523613 0.851956 -0.590362 0.807139 222.033 304.265)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="16.1756" y2="-0.5"
+		transform="matrix(-0.560029 0.828473 -0.745177 -0.666866 204.059 316.471)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="229.341" y1="316.971" x2="203.585" y2="316.971" stroke="white" stroke-opacity="0.6" />
+	<line x1="239" y1="330.372" x2="195" y2="330.372" stroke="white" stroke-opacity="0.6" />
+	<line y1="-0.5" x2="17.1341" y2="-0.5"
+		transform="matrix(0.623114 0.782131 -0.647252 0.762276 228.268 317.776)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="10.4117" y2="-0.5"
+		transform="matrix(-0.422602 0.906315 -0.571561 -0.82056 215.044 290)" stroke="white"
+		stroke-opacity="0.6" />
+	<line y1="-0.5" x2="11.6142" y2="-0.5"
+		transform="matrix(0.463035 0.88634 -0.527991 0.84925 215.044 290)" stroke="white"
+		stroke-opacity="0.6" />
+	<line x1="210.644" y1="299.794" x2="220.422" y2="299.794" stroke="white" stroke-opacity="0.6" />
+</svg>

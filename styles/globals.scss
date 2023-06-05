@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #000000;
+
+    --white: #ffffff;
+
+    --green: #2d7c3e;
+    --green-dark: #78916f;
+
+    --yellow-dark: #766f5980;
+
+    --gray: #bcbcbc;
+    --gray-light: #ededed;
+    --gray-dark: #bcbcbc80;
+
+    --red: #e90000;
+
+    --transition: 0.3s;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 82px;
+    line-height: 99px;
+    color: var(--green);
+}
+
+.h2 {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--gray);
+}
+
+.container {
+    max-width: 1560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgroundDot {
+    position: absolute;
+    background: rgba(153, 202, 161, 0.18);
+    width: 713px;
+    height: 713px;
+    left: 37%;
+    top: -190px;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.visuallyHidden {
+    height: 0;
+    width: 0;
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+}

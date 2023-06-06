@@ -8,7 +8,7 @@ import Button from "components/UI/Button";
 import ProductDetailsProps from "./productDetails.props";
 import formatPrice from "helpers/formatPrice";
 import { IOrder } from "store/orders/order.interface";
-import IDeatils from "./details.interface";
+import IDeatils from "./productDetails.interface";
 
 const ProductDetailsComponent = ({
     product,

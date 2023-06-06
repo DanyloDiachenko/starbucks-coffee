@@ -43,6 +43,14 @@ const Orders = ({
         return () => decrementProductQuantity(productId, productSize);
     };
 
+    const countPricePerOrder = (
+        pricePerOrder: number,
+        orderQuantity: number,
+    ) => {
+        const price: number = pricePerOrder * orderQuantity;
+        return price.toFixed(2);
+    };
+
     return (
         <>
             {isOrdersOpen && (
@@ -119,15 +127,24 @@ const Orders = ({
                                     +
                                 </button>
                             </div>
-                            <p
-                                onClick={removeProductFromBasketHandler(
-                                    order._id,
-                                    order.size,
-                                )}
-                                className={styles.remove}
-                            >
-                                Remove
-                            </p>
+                            <div className={styles.removeAndPrice}>
+                                <p
+                                    onClick={removeProductFromBasketHandler(
+                                        order._id,
+                                        order.size,
+                                    )}
+                                    className={styles.remove}
+                                >
+                                    Remove
+                                </p>
+                                <p className={styles.price}>
+                                    $
+                                    {countPricePerOrder(
+                                        order.price,
+                                        order.quantity,
+                                    )}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 ))}

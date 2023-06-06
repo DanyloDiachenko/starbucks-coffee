@@ -119,10 +119,21 @@
             }
         }
 
-        .remove {
+        .removeAndPrice {
             margin-top: 20px;
-            color: var(--red);
-            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .remove {
+                color: var(--red);
+                cursor: pointer;
+            }
+
+            .price {
+                border-top: 2px solid var(--gray-light);
+                padding-top: 3px;
+            }
         }
     }
 

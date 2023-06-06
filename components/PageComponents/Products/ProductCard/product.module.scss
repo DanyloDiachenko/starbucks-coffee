@@ -21,11 +21,11 @@
     &:hover {
         background: var(--green-dark);
         box-shadow: 10px 20px 50px rgba(120, 145, 111, 0.54);
-        transform: scale(1.15);
         background-image: url("../../../../public/background.svg");
         background-repeat: no-repeat;
         background-position: center top;
         animation: slideBackground 10s linear infinite;
+        scale: 1.15;
 
         .title {
             color: var(--white);
@@ -86,8 +86,9 @@
     }
 
     .sizes {
+        width: 100%;
         margin-top: 20px;
-        grid-template-columns: repeat(4, 80px);
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 8px;
         display: none;
 
@@ -106,6 +107,7 @@
             border: 2px solid var(--white);
             border-radius: 5px;
             cursor: pointer;
+            transition: var(--transition);
 
             &.active {
                 background: var(--white);

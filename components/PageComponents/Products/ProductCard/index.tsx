@@ -57,7 +57,7 @@ const Product = ({
         const buttons = ["short", "tall", "grande", "venti"];
 
         return (
-            <div className={styles.sizes}>
+            <>
                 {buttons.map((btn, id) => {
                     const activeIndex = details.findIndex(
                         (detail) => detail.size === activeSize.size,
@@ -75,7 +75,7 @@ const Product = ({
                         </button>
                     );
                 })}
-            </div>
+            </>
         );
     };
 

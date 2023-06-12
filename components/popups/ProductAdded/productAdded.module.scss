@@ -1,0 +1,80 @@
+.popup {
+    position: fixed;
+    bottom: 45px;
+    left: 45px;
+    z-index: 10;
+    backdrop-filter: blur(14px);
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--white);
+    border-radius: 7px;
+    border: 2px solid var(--green);
+    padding: 11px 11px 26px 26px;
+
+    transition: var(--transition);
+
+    &.active {
+        bottom: 45px;
+        opacity: 1;
+    }
+
+    &.inactive {
+        opacity: 0;
+        bottom: 0;
+    }
+
+    .closeWrapper {
+        text-align: end;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .content {
+        display: flex;
+        gap: 20px;
+
+        .iconWrapper {
+            width: 77px;
+            height: 77px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(
+                180deg,
+                hsl(133deg 47% 33%) 0%,
+                hsl(129deg 38% 36%) 11%,
+                hsl(125deg 32% 38%) 22%,
+                hsl(121deg 27% 41%) 33%,
+                hsl(118deg 24% 42%) 44%,
+                hsl(115deg 22% 44%) 56%,
+                hsl(112deg 19% 45%) 67%,
+                hsl(109deg 17% 47%) 78%,
+                hsl(107deg 15% 49%) 89%,
+                hsl(104deg 13% 50%) 100%
+            );
+            border-radius: 6px;
+        }
+
+        .textColumn {
+            .success {
+                font-weight: 600;
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+
+            p {
+                margin-top: 10px;
+                color: var(--white);
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 1px;
+
+                .product {
+                    font-weight: 600;
+                    letter-spacing: 1.5px;
+                }
+            }
+        }
+    }
+}

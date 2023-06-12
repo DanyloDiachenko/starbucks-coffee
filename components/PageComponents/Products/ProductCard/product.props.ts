@@ -22,4 +22,5 @@ export default interface ProductProps {
 	createdAt: Date;
 
 	addProductToBasket: (productToOrder: IOrder) => void;
+	setPopupProductAddedTitle: (titleValue: string) => void;
 };

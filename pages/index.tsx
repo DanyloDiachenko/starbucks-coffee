@@ -91,7 +91,7 @@ export const getStaticProps: GetStaticProps<ProductsProps> = async () => {
             };
         }
     } catch (error) {
-        console.error(error);
+        console.log(error);
         return {
             props: {
                 products: [],

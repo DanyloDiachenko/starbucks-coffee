@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+	.leftCol {
+		font-size: 22px;
+		color: var(--yellow-dark);
+		letter-spacing: 1px;
+	}
+
+	.rightCol {
+		div {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			a {
+				text-decoration: none;
+				color: var(--yellow-dark);
+				font-size: 20px;
+				letter-spacing: 1px;
+			}
+		}
+
+		.email {
+			margin-top: 10px;
+		}
+	}
+}

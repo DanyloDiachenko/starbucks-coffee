@@ -16,8 +16,6 @@ const Products = ({ products }: ProductsProps): JSX.Element => {
         titleKey: "newest",
     });
 
-    console.log(products);
-
     useEffect(() => {
         switch (filterType.titleKey) {
             case "newest": {

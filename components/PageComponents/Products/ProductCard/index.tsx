@@ -19,7 +19,9 @@ const Product = ({
     totalFat19g,
     saturatedFat3g,
     transFat05g,
+
     addProductToBasket,
+    setPopupProductAddedTitle,
 }: ProductProps): JSX.Element => {
     const [activeSize, setActiveSize] = useState<{
         size: string;
@@ -51,6 +53,7 @@ const Product = ({
         };
 
         addProductToBasket(productToAdd);
+        setPopupProductAddedTitle(productToAdd.title);
     };
 
     const renderButtons = (): JSX.Element => {
@@ -157,6 +160,10 @@ const mapDispatch = {
     addProductToBasket: (product: IOrder) => ({
         type: "ADD_PRODUCT_TO_BASKET",
         product,
+    }),
+    setPopupProductAddedTitle: (titleValue: string) => ({
+        type: "SET_PRODUCT_POPUP_ADDED_TITLE",
+        titleValue,
     }),
 };
 const connector = connect(mapState, mapDispatch);

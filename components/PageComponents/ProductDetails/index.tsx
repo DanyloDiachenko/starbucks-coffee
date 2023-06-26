@@ -13,6 +13,7 @@ import IDeatils from "./productDetails.interface";
 const ProductDetailsComponent = ({
     product,
     addProductToBasket,
+    setPopupProductAddedTitle,
 }: ProductDetailsProps): JSX.Element => {
     const [details, setDetails] = useState<IDeatils>({
         calories: product.details[0].calories,
@@ -21,6 +22,12 @@ const ProductDetailsComponent = ({
         size: product.details[0].volume,
     });
     const [activeSize, setActiveSize] = useState<string>("short");
+
+    const setPopupProductAddedTitleHandler = (
+        productTitleClicked: string,
+    ): void => {
+        setPopupProductAddedTitle(productTitleClicked);
+    };
 
     const addProductToBasketHandler = (): void => {
         const productToAdd = {
@@ -34,6 +41,7 @@ const ProductDetailsComponent = ({
         };
 
         addProductToBasket(productToAdd);
+        setPopupProductAddedTitleHandler(productToAdd.title);
     };
 
     const renderButtons = (): JSX.Element => {
@@ -145,11 +153,17 @@ const ProductDetailsComponent = ({
     );
 };
 
-const mapState = () => {};
+const mapState = () => {
+    return {};
+};
 const mapDispatch = {
     addProductToBasket: (product: IOrder) => ({
         type: "ADD_PRODUCT_TO_BASKET",
         product,
+    }),
+    setPopupProductAddedTitle: (titleValue: string) => ({
+        type: "SET_PRODUCT_POPUP_ADDED_TITLE",
+        titleValue,
     }),
 };
 const connector = connect(mapState, mapDispatch);

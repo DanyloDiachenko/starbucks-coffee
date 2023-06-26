@@ -66,7 +66,9 @@ const Products = ({ products }: ProductsProps): JSX.Element => {
             <Filter filterType={filterType} setFilterType={setFilterType} />
             <div className={styles.wrapper}>
                 {productsFiltered.length &&
-                    productsFiltered.map((coffee) => <Product {...coffee} />)}
+                    productsFiltered.map((coffee) => (
+                        <Product {...coffee} key={coffee._id} />
+                    ))}
             </div>
         </section>
     );

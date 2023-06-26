@@ -27,12 +27,22 @@ h1 {
     font-size: 82px;
     line-height: 99px;
     color: var(--green);
+
+    @media (max-width: 991px) {
+        font-size: 66px;
+        line-height: 78px;
+    }
 }
 
 .h2 {
     font-weight: 800;
     font-size: 26px;
     line-height: 31px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 .h3 {
@@ -46,6 +56,11 @@ p {
     font-size: 20px;
     line-height: 24px;
     color: var(--gray);
+
+    @media (max-width: 600px) {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
 
 .container {
@@ -63,6 +78,18 @@ p {
     top: -190px;
     border-radius: 100%;
     z-index: -1;
+
+    @media (max-width: 1220px) {
+        width: 50vw;
+        height: 50vw;
+    }
+    @media (max-width: 600px) {
+        top: -150px;
+        width: 75vw;
+        height: 75vw;
+        left: auto;
+        right: 0;
+    }
 }
 
 .visuallyHidden {

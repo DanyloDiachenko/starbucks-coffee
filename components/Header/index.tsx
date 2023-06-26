@@ -7,6 +7,7 @@ import Orders from "components/PageComponents/Orders";
 import { IOrders } from "store/orders/order.interface";
 import { connect } from "react-redux";
 import HeaderProps from "./header.props";
+import Search from "./Search";
 
 const Header = ({ ordersProps }: HeaderProps): JSX.Element => {
     const [isOrdersOpen, setIsOrdersOpen] = useState<boolean>(false);
@@ -21,6 +22,7 @@ const Header = ({ ordersProps }: HeaderProps): JSX.Element => {
                             width="139"
                             height="140"
                             alt="logotype"
+                            className={styles.logo}
                         />
                     </Link>
                     <nav className={styles.navigation}>
@@ -29,19 +31,7 @@ const Header = ({ ordersProps }: HeaderProps): JSX.Element => {
                         <Link href="#">menu</Link>
                     </nav>
                 </div>
-                <div className={styles.searchWrapper}>
-                    <input
-                        type="text"
-                        placeholder="SEARCH"
-                        className={styles.input}
-                    />
-                    <Image
-                        width="18"
-                        height="18"
-                        src="/search.svg"
-                        alt="search-icon"
-                    />
-                </div>
+                <Search />
                 <div className={styles.basketMenu}>
                     <div className={styles.basketWrapper}>
                         {ordersProps.length ? (

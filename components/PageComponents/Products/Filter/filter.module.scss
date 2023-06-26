@@ -1,6 +1,13 @@
 .filtersWrapper {
     position: relative;
 
+    @media (max-width: 1620px) {
+        margin-right: 20px;
+    }
+    @media (max-width: 600px) {
+        margin-right: 0;
+    }
+
     .filters {
         margin-left: auto;
         padding: 8px 15px;

@@ -4,12 +4,25 @@ import { connect } from "react-redux";
 import styles from "./productAdded.module.scss";
 import PopupProductAddedProps from "./productAdded.props";
 import IOpenPopupProductAdded from "store/popupProductAdded/order.interface";
+import { useEffect } from "react";
 
 const PopupProductAdded = ({
     popupProductAddedTitle,
     setPopupProductAddedTitle,
 }: PopupProductAddedProps): JSX.Element => {
     console.log(popupProductAddedTitle);
+
+    useEffect(() => {
+        if (popupProductAddedTitle.length) {
+            const timeoutId = setTimeout(() => {
+                setPopupProductAddedTitle("");
+            }, 3000);
+
+            return () => clearTimeout(timeoutId);
+        } else {
+            return;
+        }
+    }, [popupProductAddedTitle]);
 
     return (
         <>

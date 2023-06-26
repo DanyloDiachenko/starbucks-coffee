@@ -98,7 +98,6 @@ const Product = ({
                     volume: details[0].volume,
                 })
             }
-            key={_id}
             className={styles.product}
         >
             <Image
@@ -107,8 +106,10 @@ const Product = ({
                 width="160"
                 height="296"
                 className={styles.banner}
-                style={{ objectFit: "contain" }}
             />
+            <div className={styles.help}>
+                Tap to get <br /> more info
+            </div>
             <div className={`h2 ${styles.title}`}>{title}</div>
             {renderRating(rating)}
             <div className={styles.sizes}>{renderButtons()}</div>

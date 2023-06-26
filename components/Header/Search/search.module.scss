@@ -1,0 +1,94 @@
+.searchWrapper {
+    max-width: 420px;
+    width: 100%;
+    border-bottom: 2px solid var(--gray);
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    position: relative;
+
+    @media (max-width: 768px) {
+        max-width: 300px;
+    }
+    @media (max-width: 600px) {
+        max-width: 200px;
+    }
+    @media (max-width: 340px) {
+        max-width: 160px;
+    }
+
+    input {
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        padding-left: 0;
+        border: none;
+        width: 100%;
+        outline: none;
+        cursor: pointer;
+        background: none;
+
+        &::placeholder {
+            letter-spacing: 0.2em;
+            color: #bcbcbc;
+        }
+    }
+
+    .searchSelect {
+        max-width: 420px;
+        max-height: 300px;
+        width: 100%;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background: var(--white);
+        border-radius: 8px;
+        padding: 15px;
+        box-sizing: border-box;
+        overflow-y: scroll;
+        box-shadow: 1px 5px 20px 3px rgba(0, 0, 0, 0.25);
+
+        @media (max-width: 340px) {
+            padding: 10px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            img {
+                object-fit: contain;
+
+                @media (max-width: 340px) {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+
+            a {
+                width: auto;
+                cursor: pointer;
+                color: var(--yellow-dark);
+                text-decoration: none;
+                letter-spacing: 1.5px;
+                padding-bottom: 2px;
+                border-bottom: 2px solid var(--white);
+                margin-top: 5px;
+
+                @media (max-width: 340px) {
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    border-bottom: 2px solid var(--yellow-dark);
+                }
+            }
+        }
+    }
+}

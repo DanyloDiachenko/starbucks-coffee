@@ -2,28 +2,42 @@
     display: flex;
     justify-content: space-between;
 
-	.leftCol {
-		font-size: 22px;
-		color: var(--yellow-dark);
-		letter-spacing: 1px;
-	}
+    @media (max-width: 1620px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media (max-width: 991px) {
+        display: block;
+        text-align: center;
+    }
 
-	.rightCol {
-		div {
-			display: flex;
-			align-items: center;
-			gap: 10px;
+    .leftCol {
+        font-size: 22px;
+        color: var(--yellow-dark);
+        letter-spacing: 1px;
+    }
 
-			a {
-				text-decoration: none;
-				color: var(--yellow-dark);
-				font-size: 20px;
-				letter-spacing: 1px;
-			}
-		}
+    .rightCol {
+        div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
 
-		.email {
-			margin-top: 10px;
-		}
-	}
+            @media (max-width: 991px) {
+                justify-content: center;
+                margin-top: 30px;
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--yellow-dark);
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        }
+
+        .email {
+            margin-top: 10px;
+        }
+    }
 }

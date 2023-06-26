@@ -88,7 +88,7 @@ const Orders = ({
                             <div className={styles.title}>{order.title}</div>
                             <p className={styles.size}>{order.size}</p>
                             <p className={styles.priceVolume}>
-                                ${order.price} / {order.volume}ml
+                                ${order.price.toFixed(2)} / {order.volume}ml
                             </p>
                             <div className={styles.controls}>
                                 <button

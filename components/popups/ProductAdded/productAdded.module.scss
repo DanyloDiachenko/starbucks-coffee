@@ -10,6 +10,13 @@
     border: 2px solid var(--green);
     padding: 11px 11px 26px 26px;
 
+    @media (max-width: 600px) {
+        left: 15px;
+        right: 15px;
+        bottom: 0;
+        padding: 1px 5px 10px 10px;
+    }
+
     transition: var(--transition);
 
     &.active {
@@ -34,6 +41,10 @@
         display: flex;
         gap: 20px;
 
+        @media (max-width: 600px) {
+            align-items: center;
+        }
+
         .iconWrapper {
             width: 77px;
             height: 77px;
@@ -54,6 +65,16 @@
                 hsl(104deg 13% 50%) 100%
             );
             border-radius: 6px;
+
+            @media (max-width: 600px) {
+                width: 50px;
+                height: 50px;
+
+                img {
+                    width: 20px;
+                    height: auto;
+                }
+            }
         }
 
         .textColumn {
@@ -61,6 +82,10 @@
                 font-weight: 600;
                 font-size: 22px;
                 letter-spacing: 2px;
+
+                @media (max-width: 600px) {
+                    font-size: 18px;
+                }
             }
 
             p {
@@ -69,6 +94,11 @@
                 font-size: 16px;
                 line-height: 20px;
                 letter-spacing: 1px;
+
+                @media (max-width: 600px) {
+                    font-size: 13px;
+                    letter-spacing: 0.5px;
+                }
 
                 .product {
                     font-weight: 600;

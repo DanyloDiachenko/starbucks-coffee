@@ -8,9 +8,13 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    @media (max-width: 991px) {
+        margin-top: 20px;
+    }
     @media (max-width: 600px) {
         padding-left: 15px;
         padding-right: 15px;
+        margin-top: 10px;
     }
 
     .logoNavigation {

@@ -25,49 +25,41 @@ const PopupProductAdded = ({
     }, [popupProductAddedTitle]);
 
     return (
-        <>
-            {popupProductAddedTitle.length ? (
-                <div
-                    className={`${styles.popup} ${
-                        popupProductAddedTitle.length
-                            ? styles.active
-                            : styles.inactive
-                    }`}
-                >
-                    <div className={styles.closeWrapper}>
-                        <Image
-                            src="/close-small.svg"
-                            alt="close"
-                            width="11"
-                            height="11"
-                            onClick={() => setPopupProductAddedTitle("")}
-                        />
-                    </div>
+        <div
+            className={`${styles.popup} ${
+                popupProductAddedTitle.length ? styles.active : styles.inactive
+            }`}
+        >
+            <div className={styles.closeWrapper}>
+                <Image
+                    src="/close-small.svg"
+                    alt="close"
+                    width="11"
+                    height="11"
+                    onClick={() => setPopupProductAddedTitle("")}
+                />
+            </div>
 
-                    <div className={styles.content}>
-                        <div className={styles.iconWrapper}>
-                            <Image
-                                src="/success.svg"
-                                alt="success photo"
-                                width="32"
-                                height="26"
-                            />
-                        </div>
-                        <div className={styles.textColumn}>
-                            <div className={styles.success}>Success!</div>
-                            <p>
-                                You successfully added product: <br />
-                                <div className={styles.product}>
-                                    {popupProductAddedTitle}
-                                </div>
-                            </p>
-                        </div>
-                    </div>
+            <div className={styles.content}>
+                <div className={styles.iconWrapper}>
+                    <Image
+                        src="/success.svg"
+                        alt="success photo"
+                        width="32"
+                        height="26"
+                    />
                 </div>
-            ) : (
-                ""
-            )}
-        </>
+                <div className={styles.textColumn}>
+                    <div className={styles.success}>Success!</div>
+                    <p>
+                        You successfully added product: <br />
+                        <span className={styles.product}>
+                            {popupProductAddedTitle}
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
     );
 };
 

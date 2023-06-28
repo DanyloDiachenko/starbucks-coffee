@@ -220,10 +220,17 @@
 
         div:last-child {
             width: 200px;
+            height: auto;
+            display: block !important;
 
             div {
+                &:first-child {
+                    display: block !important;
+                    height: auto;
+                }
+
                 &:last-child {
-                    display: none !important;
+                    display: block !important;
                 }
             }
         }

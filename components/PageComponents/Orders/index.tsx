@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import styles from "./order.module.scss";
 import OrderProps from "./orders.props";
 import { IOrders } from "store/orders/order.interface";
+import Payment from "./Payment";
 
 const Orders = ({
     isOrdersOpen,
@@ -150,11 +151,11 @@ const Orders = ({
                 ))}
                 {orders.length ? (
                     <div className={styles.paymentWrapper}>
-                        <div>
+                        <div className={styles.totalWrapper}>
                             <p>Total:</p>
                             <div className={styles.total}>${countPrice()}</div>
                         </div>
-                        <button>Payment</button>
+                        <Payment />
                     </div>
                 ) : (
                     <p className={styles.nothing}>Here is nothing...</p>

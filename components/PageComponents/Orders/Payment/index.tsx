@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { PayPalButton } from "react-paypal-button-v2";
 
-const PaymentPage = () => {
+
+const Payment = (): JSX.Element => {
     const [isPaymentComplete, setIsPaymentComplete] = useState(false);
 
     const handlePaymentSuccess = () => {
@@ -10,8 +11,7 @@ const PaymentPage = () => {
     };
 
     return (
-        <div>
-            <h1>Payment Page</h1>
+        <>
             {!isPaymentComplete ? (
                 <PayPalButton
                     amount="0.01"
@@ -23,8 +23,8 @@ const PaymentPage = () => {
             ) : (
                 <p>Payment Complete!</p>
             )}
-        </div>
-    );
+        </>
+    ); /* <button className={styles.paymentButton}>Payment</button>; */
 };
 
-export default PaymentPage;
+export default Payment;

@@ -26,9 +26,8 @@ const Header = ({ ordersProps }: HeaderProps): JSX.Element => {
                         />
                     </Link>
                     <nav className={styles.navigation}>
-                        <Link href="#frappucino">frappucino</Link>
-                        <Link href="#">tea</Link>
-                        <Link href="#">menu</Link>
+                        <Link href="#frappucino">menu</Link>
+                        <Link href="https://github.com/DanyloDiachenko/starbucks-coffee" target="_blank">repository</Link>
                     </nav>
                 </div>
                 <Search />

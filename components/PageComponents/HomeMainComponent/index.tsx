@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "./homeMainComponent.module.scss";
 
@@ -12,7 +13,9 @@ const HomeMainComponent = (): JSX.Element => {
                     width="237"
                     height="57"
                 />
-                <p>get more info</p>
+                <Link href="https://www.starbucks.com/rewards" target="_blank">
+                    get more info
+                </Link>
             </div>
             <div className={styles.rightCol}>
                 <h1>The happiest hour of the year</h1>
@@ -20,7 +23,13 @@ const HomeMainComponent = (): JSX.Element => {
                     Sign up to get exlusive to deals on drinks this holiay
                     season.
                 </p>
-                <p className={styles.magic}>SEND ME MAGIC</p>
+                <Link
+                    className={styles.magic}
+                    href="https://www.starbucks.com/"
+                    target="_blank"
+                >
+                    send me magic
+                </Link>
             </div>
         </section>
     );

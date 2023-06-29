@@ -18,7 +18,7 @@
 
 ### file .env:
 - NEXT_PUBLIC_BACKEND_URL=https://starbucks-coffee-api.vercel.app
-- NEXT_PUBLIC_PAYPAL_CLIENT_ID=AYVigFJOdHc5Zmoc3gNpZHAvSaT8wh_D8U1kRGQTViw6mlc8m5WErcB5GRy5QgnIFns1OHb6_fSbe_jk
+- NEXT_PUBLIC_PAYPAL_CLIENT_ID=AYVigFJOdHc5Zmoc3gNpZHAvSaT8wh_D8U1kRG...
 
 ### Perfomance:
 [![Perfomance screen photo](https://i.imgur.com/zFktIKB.png)](https://i.imgur.com/zFktIKB.png)

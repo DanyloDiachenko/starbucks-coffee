@@ -123,7 +123,6 @@ const ProductDetailsComponent = ({
                             quality={100}
                             width="160"
                             height="300"
-                            layout="intrinsic"
                             className={styles.banner}
                         />
                         <div className={styles.price}>

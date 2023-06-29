@@ -40,14 +40,23 @@ const ProductDetails = ({ product }: ProductDetailsProps): JSX.Element => {
                 <meta name="robots" content="index, follow" />
                 <meta name="language" content="English" />
                 <meta name="revisit-after" content="2 days" />
-                <meta property="og:title" content="Starbucks Coffee" />
-                <meta property="og:site_name" content="Starbucks Coffee" />
-                {/* <meta property="og:url" content="https://spacecore.pro" /> */}
+                <meta
+                    property="og:title"
+                    content={`${product._id} in Starbucks Coffee`}
+                />
+                <meta
+                    property="og:site_name"
+                    content={`${product._id} in Starbucks Coffee`}
+                />
+                <meta
+                    property="og:url"
+                    content={`https://starbucks-coffee-gules.vercel.app/${product._id}`}
+                />
                 <meta
                     property="og:description"
                     content={
                         product.title +
-                        "Buy cheep coffee online with a delivery to home for a few minutes"
+                        " - Buy cheep coffee online with a delivery to home for a few minutes"
                     }
                 />
                 <meta property="og:type" content="website" />

@@ -1,8 +1,8 @@
 {
-    "name": "Starbucks Coffee",
+    "name": "Starbucks Coffee Shop",
     "id": "/",
     "short_name": "Starbucks Coffee",
-    "start_url": "http://localhost:3000",
+    "start_url": "https://starbucks-coffee-gules.vercel.app/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",

@@ -40,7 +40,7 @@ const HomePage = ({ products }: ProductsProps): JSX.Element => {
                 <meta name="revisit-after" content="2 days" />
                 <meta property="og:title" content="Starbucks Coffee" />
                 <meta property="og:site_name" content="Starbucks Coffee" />
-                {/* <meta property="og:url" content="https://spacecore.pro" /> */}
+                <meta property="og:url" content="https://starbucks-coffee-gules.vercel.app/" />
                 <meta
                     property="og:description"
                     content={

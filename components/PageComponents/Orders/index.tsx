@@ -155,7 +155,7 @@ const Orders = ({
                             <p>Total:</p>
                             <div className={styles.total}>${countPrice()}</div>
                         </div>
-                        <Payment />
+                        <Payment amount={Number(countPrice())} />
                     </div>
                 ) : (
                     <p className={styles.nothing}>Here is nothing...</p>

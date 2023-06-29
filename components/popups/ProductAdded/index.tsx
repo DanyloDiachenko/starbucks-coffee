@@ -52,10 +52,19 @@ const PopupProductAdded = ({
                 <div className={styles.textColumn}>
                     <div className={styles.success}>Success!</div>
                     <p>
-                        You successfully added product: <br />
-                        <span className={styles.product}>
-                            {popupProductAddedTitle}
-                        </span>
+                        {popupProductAddedTitle ===
+                        "Payment successfuly completed. Thanks!" ? (
+                            "Payment successfuly completed. Thanks!"
+                        ) : (
+                            <>
+                                <>
+                                    You successfully added product: <br />
+                                </>
+                                <span className={styles.product}>
+                                    {popupProductAddedTitle}
+                                </span>
+                            </>
+                        )}
                     </p>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+stage: production ready
+
 # Starbucks Coffee Shop Online
 ### Stack:
 -  Next JS  (ver. 13.4.0)

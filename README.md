@@ -1,27 +1,28 @@
 stage: production ready
+link: https://top-cources.vercel.app/
 
 # Starbucks Coffee Shop Online
 ### Stack:
--  Next JS  (ver. 13.4.0)
-- TypeScript (ver. 5.0.4)
--  React Redux / Redux (ver. 8.0.5 / 4.2.1)
--  SASS (1.62.1)
--  -.sass -.css modules
--  Sharp (0.32.1)
-- React-paypal-button-v2 (ver. 2.6.3)
+-  next  (ver. 13.2.4)
+- typeScript (ver. 4.8.2)
+- .css modules
+-  sharp (ver. 0.32.1)
+- axios (ver. 0.27.2)
+- classnames (ver. 2.3.1)
+- framer-motion (ver.7.6.12)
+- react (ver. 18.2.0)
+- react-dom (ver. 18.2.0)
+- react-hook-form (ver. 7.39.5)
 
 ### Additional:
-- Prettier
-
-### Links / for developers:
-- Figma design:  https://www.figma.com/file/NFEgRezYwnchVOu4uZ8mw6/Untitled?type=design&node-id=0-1&mode=design&t=Iztj0Xijqk1o2i03-0
-- Backend api: https://github.com/DanyloDiachenko/starbucks-coffee-api
-- Repository: https://starbucks-coffee-gules.vercel.app/
+- @svgr/webpack (ver. 6.3.1)
+- @tsconfig/next (ver. 1.0.2)
+- @types/node (ver. 18.7.14)
+- @types/react (ver. 18.0.18)
+- date-fns (ver. 2.29.3)
 
 ### file .env:
-- NEXT_PUBLIC_BACKEND_URL=https://starbucks-coffee-api.vercel.app
-- NEXT_PUBLIC_PAYPAL_CLIENT_ID=AYVigFJOdHc5Zmoc3gNpZHAvSaT8wh_D8U1kRG...
+NEXT_PUBLIC_DOMAIN=https://courses-top.ru
 
 ### Perfomance:
-[![Perfomance screen photo](https://i.imgur.com/zFktIKB.png)](https://i.imgur.com/zFktIKB.png)
-
+[![Perfomance screen photo](https://i.imgur.com/J0IgUt8.png)](https://i.imgur.com/J0IgUt8.png)

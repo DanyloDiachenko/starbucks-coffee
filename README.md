@@ -18,7 +18,6 @@ Page-link: https://starbucks-coffee-gules.vercel.app/
 ### Links / for developers:
 - Figma design:  https://www.figma.com/file/NFEgRezYwnchVOu4uZ8mw6/Untitled?type=design&node-id=0-1&mode=design&t=Iztj0Xijqk1o2i03-0
 - Backend api: https://github.com/DanyloDiachenko/starbucks-coffee-api
-- Repository: https://starbucks-coffee-gules.vercel.app/
 
 ### file .env:
 - NEXT_PUBLIC_BACKEND_URL=https://starbucks-coffee-api.vercel.app

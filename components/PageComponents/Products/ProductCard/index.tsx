@@ -104,7 +104,7 @@ const Product = ({
                 src={imgSrc}
                 alt={`${title} photo`}
                 width="160"
-                height="296"
+                height="310"
                 className={styles.banner}
             />
             <div className={styles.help}>

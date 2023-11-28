@@ -24,4 +24,4 @@ Page-link: https://starbucks-coffee-gules.vercel.app/
 - NEXT_PUBLIC_PAYPAL_CLIENT_ID=AYVigFJOdHc5Zmoc3gNpZHAvSaT8wh_D8U1kRG...
 
 ### Perfomance:
-[![Perfomance screen photo](https://i.imgur.com/zFktIKB.png)](https://i.imgur.com/zFktIKB.png)
+[![Perfomance screen photo](https://i.imgur.com/QjnfBgI.png)]([https://i.imgur.com/QjnfBgI.png](https://imgur.com/QjnfBgI))
